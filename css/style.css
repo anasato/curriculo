@@ -1,0 +1,104 @@
+html {
+  background-image: url(../img/background.jpg);
+  background-size: auto;
+  background-repeat: repeat-x;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e4e3e3;
+  margin: auto;
+  width: 970px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #000000;
+  box-shadow: 1px 7px 10px 1px #303030;
+}
+
+header {
+  background-color: rgba(179, 145, 182, 0.747);
+  margin-right: 35px;
+  width: 300px;
+  height: 699px; /*duvida*/
+  float: left;
+}
+
+header h1 {
+  color: rgb(230, 230, 230);
+  text-shadow: 1px 4px 5px #69004a6c;
+}
+section {
+  margin-top: 30px;
+  line-height: 3px;
+}
+
+section p {
+  text-align: center;
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+p {
+  text-align: center;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #ff5de4;
+}
+
+hr {
+  border-color: #a4e2912c;
+}
+ul {
+  list-style-image: url(../img/icon.png);
+  margin-left: 535px;
+  width: 160px;
+  padding-top: 0.2%;
+  font-weight: 300;
+}
+
+ul li {
+  line-height: 5px;
+  text-align: center;
+}
+
+strong {
+  color: #505050;
+}
+
+footer {
+  padding-bottom: 0.5%;
+  background-image: url(../img/cats.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: rgb(39, 10, 39);
+}
+
+/*Ajustes usando ID*/
+
+#rodape {
+  font-weight: bold;
+  padding-top: 3.5%;
+  color: #e4e3e3;
+}
+
+#conteudo {
+  float: inherit;
+  padding-right: 30px;
+}
