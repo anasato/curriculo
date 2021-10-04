@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  background-image: url(/img/background.jpg);
+  background-repeat: repeat;
+  margin: auto;
+  max-width: 940px;
+}
+
+header {
+  background-color: rgb(39, 10, 39);
+  position: relative;
+  height: 65px;
+}
+
+#logo img {
+  filter: saturate(15);
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+nav {
+  position: absolute;
+  left: 210px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 21px 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.1em;
+  padding: 13px 0 10px 0;
+}
+
+nav ul li a:hover {
+  color: rgb(255, 174, 224);
+  border-bottom: 3px solid rgb(255, 140, 203);
+  border-radius: 3px;
+  transition: ease-in-out 0.1s;
+}
+
+a:active {
+  color: rgb(255, 140, 203);
+}
+
+main {
+  max-width: 920px;
+  margin: auto;
+  text-align: center;
+}
+
+main > h1 {
+  padding-top: 1em;
+  font-weight: 300;
+  border-bottom: 2px solid purple;
+  display: inline-block;
+  color: #3a3a3a;
+}
+
+section {
+  background-color: #e4e3e3;
+  margin-top: 1em;
+  border-radius: 8px;
+  box-shadow: 1px 7px 10px 1px #5a5a5a;
+}
+
+.aboutMe p {
+  padding: 1.1em 1em;
+  font-weight: 200;
+  text-indent: 2.5%;
+  text-align: justify;
+}
+
+.aboutMe a,
+strong {
+  text-decoration: none;
+  color: rgb(252, 80, 109);
+  font-weight: 300;
+}
+
+.aboutMe a:hover {
+  color: purple;
+  border-bottom: 1px solid purple;
+}
+
+section > h2 {
+  display: inline-block;
+  padding-top: 0.5em;
+  font-weight: 300;
+  border-bottom: 1px solid grey;
+}
+
+section > h2:first-child {
+  padding-top: 0.8em;
+}
+
+section > h3 {
+  padding-top: 0.7em;
+  font-weight: 100;
+}
+
+.images > img {
+  padding: 0.5em 0.5em;
+  border-radius: 4%;
+  height: 200px;
+  width: 300px;
+}
+
+.modelagem figure {
+  padding-top: 0.5em;
+}
+
+.modelagem figure img {
+  border-radius: 5px;
+}
+
+.modelagem figcaption {
+  font-weight: 200;
+  padding-bottom: 1em;
+  font-style: oblique;
+}
+
+footer {
+  margin-top: 1em;
+  max-width: 940px;
+  padding: 1em;
+  position: relative;
+  background-color: rgb(39, 10, 39);
+}
+
+footer > p {
+  color: white;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+}
+
+footer a i:hover {
+  color: rgb(255, 140, 203);
+  transform: translateY(-5px);
+  transition: ease 0.3s;
+}
+
+footer a i {
+  font-size: 1.4em;
+  color: white;
+}
+
+footer a i:first-child {
+  margin-left: 1.5em;
+}
+
+.iconeHome {
+  display: inline-block;
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  font-size: 30px;
+  color: rgb(68, 26, 68);
+}
+
+.iconeHome a:hover {
+  transition: ease-in 4s;
+}
+
+.projetosAF iframe {
+  border-radius: 45px;
+}
+
+.projetosAF iframe:first-child {
+  padding-top: 0.9em;
+}
+
+.projetosAF p {
+  padding-top: 0.2em;
+  padding-bottom: 1em;
+  font-style: oblique;
+}
+
+.projetosAF a {
+  text-decoration: none;
+  color: #5a5a5a;
+  font-weight: 200;
+}

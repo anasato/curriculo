@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
 html {
   background-image: url(../img/background.jpg);
   background-size: auto;
@@ -10,7 +12,7 @@ body {
   background-color: #e4e3e3;
   margin: auto;
   width: 970px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   color: #000000;
   box-shadow: 1px 7px 10px 1px #303030;
@@ -20,13 +22,16 @@ header {
   background-color: rgba(179, 145, 182, 0.747);
   margin-right: 35px;
   width: 300px;
-  height: 699px; /*duvida*/
+  height: 717px; /*duvida*/
   float: left;
 }
 
 header h1 {
-  color: rgb(230, 230, 230);
-  text-shadow: 1px 4px 5px #69004a6c;
+  color: rgb(88, 32, 70);
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 1em;
+  text-shadow: 1px 1px #f1f1f1;
 }
 section {
   margin-top: 30px;
@@ -47,10 +52,14 @@ h1 {
   color: black;
 }
 
+h3 {
+  font-weight: 400;
+}
+
 p {
   text-align: center;
   line-height: 20px;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 a {
@@ -59,7 +68,7 @@ a {
 }
 
 a:hover {
-  color: #ff5de4;
+  color: rgb(179, 101, 150);
 }
 
 hr {
@@ -79,24 +88,57 @@ ul li {
 }
 
 strong {
+  font-weight: 500;
   color: #505050;
 }
 
 footer {
-  padding-bottom: 0.5%;
-  background-image: url(../img/cats.png);
-  background-repeat: no-repeat;
-  background-position: top;
+  margin-top: 1em;
+  max-width: 940px;
+  padding: 1em;
+  position: relative;
   background-color: rgb(39, 10, 39);
 }
 
-/*Ajustes usando ID*/
-
-#rodape {
-  font-weight: bold;
-  padding-top: 3.5%;
-  color: #e4e3e3;
+footer > p {
+  color: white;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
 }
+
+footer a i:hover {
+  color: rgb(255, 140, 203);
+  transform: translateY(-5px);
+  transition: ease 0.3s;
+}
+
+footer a i {
+  font-size: 1.4em;
+  color: white;
+}
+
+footer a i:first-child {
+  margin-left: 1.5em;
+}
+
+.navegacao {
+  padding-top: 0.3em;
+}
+
+.navegacao a {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.5em;
+  border-bottom: 1px solid purple;
+}
+
+.navegacao i {
+  padding-right: 0.2em;
+}
+
+/*Ajustes usando ID*/
 
 #conteudo {
   float: inherit;
