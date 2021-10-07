@@ -62,7 +62,7 @@ main {
 
 main > h1 {
   padding-top: 1em;
-  font-weight: 300;
+  font-weight: bold;
   border-bottom: 2px solid purple;
   display: inline-block;
   color: #3a3a3a;
